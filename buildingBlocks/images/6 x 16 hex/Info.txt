@@ -1,0 +1,10 @@
+6 x 16 hex.png
+  6 x 16 hex sheet
+  1 px padding
+  2 px spacing both vertically and horizontally
+
+6 x 16 hex exact.png
+  6 x 16 hex sheet
+  1 px padding
+  1 px spacing both vertically and horizontally
+
