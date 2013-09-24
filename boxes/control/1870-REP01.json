@@ -1,0 +1,305 @@
+{
+  "bname":"1870", 
+  "version":"REP01", 
+  "author":"Rich Price",
+  "board": {
+    "imgLoc":"images/1870-REP01/Map1.png", 
+    "imgHght":1200, 
+    "imgWdth":1493, 
+    "xStart":75, 
+    "xStep":50, 
+    "yStart":73, 
+    "yStep":87
+  },
+  "market": {
+    "imgLoc":"images/1870-REP01/Chart1.png", 
+    "imgHght":720, 
+    "imgWdth":1051, 
+    "xStart":0, 
+    "xStep":50, 
+    "yStart":0, 
+    "yStep":65
+  },
+  "tray": [
+  {
+    "type":"tile", 
+    "tName":"Yellow Tiles", 
+    "imgLoc":"images/1870-REP01/Yellow1.png", 
+    "xStart":24, 
+    "xSize":100, 
+    "xStep":116, 
+    "yStart":30, 
+    "ySize":116, 
+    "yStep":130, 
+    "tile":[ {
+    }, {
+      "dups":1, 
+      "rots":3
+    }, {
+      "dups":1, 
+      "rots":6
+    }, {
+      "dups":1, 
+      "rots":3
+    }, {
+      "dups":1, 
+      "rots":6
+    }, {
+      "dups":1, 
+      "rots":6
+    }, {
+      "dups":3, 
+      "rots":6
+    }, {
+      "dups":4, 
+      "rots":6
+    }, {
+      "dups":4, 
+      "rots":3
+    }, {
+      "dups":2, 
+      "rots":6
+    }, {
+      "dups":2, 
+      "rots":6
+    }, {
+      "dups":5, 
+      "rots":3
+    }, {
+      "dups":9, 
+      "rots":6
+    }, {
+      "dups":22, 
+      "rots":6
+    }, {
+      "dups":23, 
+      "rots":3
+    }]
+  },
+  {
+    "type":"tile", 
+    "tName":"Green Tiles", 
+    "imgLoc":"images/1870-REP01/Green1.png", 
+    "xStart":150, 
+    "xSize":100, 
+    "xStep":125, 
+    "yStart":140, 
+    "ySize":116, 
+    "yStep":130, 
+    "tile":[ {
+    }, {
+      "dups":2, 
+      "rots":6
+    }, {
+      "dups":2, 
+      "rots":6
+    }, {
+      "dups":1, 
+      "rots":6
+    }, {
+      "dups":1, 
+      "rots":2
+    }, {
+      "dups":4, 
+      "rots":3
+    }, {
+      "dups":4, 
+      "rots":6
+    }, {
+      "dups":2, 
+      "rots":6
+    }, {
+      "dups":2, 
+      "rots":3
+    }, {
+      "dups":2, 
+      "rots":6
+    }, {
+      "dups":2, 
+      "rots":6
+    }, {
+      "dups":2, 
+      "rots":3
+    }, {
+      "dups":4, 
+      "rots":6
+    }, {
+      "dups":4, 
+      "rots":6
+    }, {
+      "dups":3, 
+      "rots":6
+    }, {
+      "dups":2, 
+      "rots":6
+    }, {
+      "dups":2, 
+      "rots":6
+    }, {
+      "dups":2, 
+      "rots":6
+    }, {
+      "dups":2, 
+      "rots":6
+    }]
+  },
+  {
+    "type":"tile", 
+    "tName":"Brown Tiles", 
+    "imgLoc":"images/1870-REP01/Brown1.png", 
+    "xStart":127, 
+    "xSize":100, 
+    "xStep":110, 
+    "yStart":136, 
+    "ySize":116, 
+    "yStep":126, 
+    "tile":[ {
+    }, {
+      "dups":2, 
+      "rots":3
+    }, {
+      "dups":2, 
+      "rots":6
+    }, {
+      "dups":2, 
+      "rots":6
+    }, {
+      "dups":5, 
+      "rots":1
+    }, {
+      "dups":4, 
+      "rots":6
+    }, {
+      "dups":1, 
+      "rots":6
+    }, {
+      "dups":2, 
+      "rots":2
+    }, {
+      "dups":3, 
+      "rots":6
+    }, {
+      "dups":3, 
+      "rots":6
+    }, {
+      "dups":2, 
+      "rots":6
+    }, {
+      "dups":1, 
+      "rots":3
+    }, {
+      "dups":2, 
+      "rots":6
+    }, {
+      "dups":2, 
+      "rots":6
+    }, {
+      "dups":2, 
+      "rots":3
+    }, {
+      "dups":2, 
+      "rots":6
+    }]
+  },
+  {
+    "type":"tile", 
+    "tName":"Grey Tiles", 
+    "imgLoc":"images/1870-REP01/Grey1.png", 
+    "xStart":28, 
+    "xSize":100, 
+    "xStep":127, 
+    "yStart":5, 
+    "ySize":116, 
+    "yStep":120, 
+    "tile":[ {
+    }, {
+      "dups":1, 
+      "rots":1
+    }, {
+      "dups":1, 
+      "rots":1
+    }]
+  },
+  {
+    "type":"btok", 
+    "tName":"Tokens", 
+    "imgLoc":"images/1870-REP01/Tokens.png", 
+    "xStart":5, 
+    "xSize":30, 
+    "xStep":41, 
+    "yStart":5, 
+    "ySize":30, 
+    "yStep":35, 
+    "tile":[ {
+    }, {
+      "dups":4, 
+      "flip":true
+    }, {
+      "dups":3, 
+      "flip":true
+    }, {
+      "dups":3, 
+      "flip":true
+    }, {
+      "dups":3, 
+      "flip":true
+    }, {
+      "dups":4, 
+      "flip":true
+    }, {
+      "dups":4, 
+      "flip":true
+    }, {
+      "dups":4, 
+      "flip":true
+    }, {
+      "dups":3, 
+      "flip":true
+    }, {
+      "dups":4, 
+      "flip":true
+    }, {
+      "dups":3, 
+      "flip":true
+    }, {
+      "dups":1, 
+      "flip":true
+    }, {
+      "dups":1, 
+      "flip":false
+    }]
+  },
+  {
+    "type":"btok", 
+    "tName":"Tokens", 
+    "imgLoc":"images/1870-REP01/Tokens.png", 
+    "xStart":5, 
+    "xSize":30, 
+    "xStep":41, 
+    "yStart":5, 
+    "ySize":30, 
+    "yStep":35, 
+    "tile":[ {
+    }, {
+      "flip":true
+    }, {
+      "flip":true
+    }, {
+      "flip":true
+    }, {
+      "flip":true
+    }, {
+      "flip":true
+    }, {
+      "flip":true
+    }, {
+      "flip":true
+    }, {
+      "flip":true
+    }, {
+      "flip":true
+    }, {
+      "flip":true
+    }]
+  }]
+}
