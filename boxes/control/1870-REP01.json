@@ -9,7 +9,7 @@
     "xStart":75, 
     "xStep":50, 
     "yStart":73, 
-    "yStep":87
+    "yStep":88
   },
   "market": {
     "imgLoc":"images/1870-REP01/Chart1.png", 
@@ -27,12 +27,12 @@
     "imgLoc":"images/1870-REP01/Yellow1.png", 
     "xStart":24, 
     "xSize":100, 
-    "xStep":116, 
+    "xStep":127, 
     "yStart":30, 
     "ySize":116, 
     "yStep":130, 
-    "tile":[ {
-    }, {
+    "tile":[ 
+    {
       "dups":1, 
       "rots":3
     }, {
@@ -79,33 +79,15 @@
   {
     "type":"tile", 
     "tName":"Green Tiles", 
-    "imgLoc":"images/1870-REP01/Green1.png", 
-    "xStart":150, 
+    "imgLoc":"images/1870-REP01/GreenT.png", 
+    "xStart":15, 
     "xSize":100, 
-    "xStep":125, 
-    "yStart":140, 
+    "xStep":127, 
+    "yStart":11, 
     "ySize":116, 
     "yStep":130, 
-    "tile":[ {
-    }, {
-      "dups":2, 
-      "rots":6
-    }, {
-      "dups":2, 
-      "rots":6
-    }, {
-      "dups":1, 
-      "rots":6
-    }, {
-      "dups":1, 
-      "rots":2
-    }, {
-      "dups":4, 
-      "rots":3
-    }, {
-      "dups":4, 
-      "rots":6
-    }, {
+    "tile":[ 
+    {
       "dups":2, 
       "rots":6
     }, {
@@ -145,16 +127,90 @@
   },
   {
     "type":"tile", 
-    "tName":"Brown Tiles", 
-    "imgLoc":"images/1870-REP01/Brown1.png", 
-    "xStart":127, 
+    "tName":"Green Cities", 
+    "imgLoc":"images/1870-REP01/GreenC.png", 
+    "xStart":22, 
     "xSize":100, 
-    "xStep":110, 
-    "yStart":136, 
+    "xStep":127, 
+    "yStart":11, 
     "ySize":116, 
-    "yStep":126, 
-    "tile":[ {
+    "yStep":130, 
+    "tile":[ 
+    {
+      "dups":2, 
+      "rots":6
     }, {
+      "dups":2, 
+      "rots":6
+    }, {
+      "dups":1, 
+      "rots":6
+    }, {
+      "dups":1, 
+      "rots":2
+    }, {
+      "dups":4, 
+      "rots":3
+    }, {
+      "dups":4, 
+      "rots":6
+    }]
+  },
+  {
+    "type":"tile", 
+    "tName":"Brown Tiles", 
+    "imgLoc":"images/1870-REP01/BrownT.png", 
+    "xStart":13, 
+    "xSize":100, 
+    "xStep":127, 
+    "yStart":7, 
+    "ySize":116, 
+    "yStep":122, 
+    "tile":[ 
+    {
+      "dups":1, 
+      "rots":6
+    }, {
+      "dups":2, 
+      "rots":2
+    }, {
+      "dups":3, 
+      "rots":6
+    }, {
+      "dups":3, 
+      "rots":6
+    }, {
+      "dups":2, 
+      "rots":6
+    }, {
+      "dups":1, 
+      "rots":3
+    }, {
+      "dups":2, 
+      "rots":6
+    }, {
+      "dups":2, 
+      "rots":6
+    }, {
+      "dups":2, 
+      "rots":3
+    }, {
+      "dups":2, 
+      "rots":6
+    }]
+  },
+  {
+    "type":"tile", 
+    "tName":"Brown Cities", 
+    "imgLoc":"images/1870-REP01/BrownC.png", 
+    "xStart":1, 
+    "xSize":100, 
+    "xStep":127, 
+    "yStart":7, 
+    "ySize":116, 
+    "yStep":122, 
+    "tile":[ 
+    {
       "dups":2, 
       "rots":3
     }, {
@@ -169,36 +225,6 @@
     }, {
       "dups":4, 
       "rots":6
-    }, {
-      "dups":1, 
-      "rots":6
-    }, {
-      "dups":2, 
-      "rots":2
-    }, {
-      "dups":3, 
-      "rots":6
-    }, {
-      "dups":3, 
-      "rots":6
-    }, {
-      "dups":2, 
-      "rots":6
-    }, {
-      "dups":1, 
-      "rots":3
-    }, {
-      "dups":2, 
-      "rots":6
-    }, {
-      "dups":2, 
-      "rots":6
-    }, {
-      "dups":2, 
-      "rots":3
-    }, {
-      "dups":2, 
-      "rots":6
     }]
   },
   {
@@ -208,11 +234,11 @@
     "xStart":28, 
     "xSize":100, 
     "xStep":127, 
-    "yStart":5, 
+    "yStart":4, 
     "ySize":116, 
     "yStep":120, 
-    "tile":[ {
-    }, {
+    "tile":[ 
+    {
       "dups":1, 
       "rots":1
     }, {
@@ -229,9 +255,9 @@
     "xStep":41, 
     "yStart":5, 
     "ySize":30, 
-    "yStep":35, 
-    "tile":[ {
-    }, {
+    "yStep":34, 
+    "token":[ 
+    {
       "dups":4, 
       "flip":true
     }, {
@@ -270,7 +296,7 @@
     }]
   },
   {
-    "type":"btok", 
+    "type":"mtok", 
     "tName":"Tokens", 
     "imgLoc":"images/1870-REP01/Tokens.png", 
     "xStart":5, 
@@ -278,9 +304,9 @@
     "xStep":41, 
     "yStart":5, 
     "ySize":30, 
-    "yStep":35, 
-    "tile":[ {
-    }, {
+    "yStep":34, 
+    "token":[ 
+    {
       "flip":true
     }, {
       "flip":true
