@@ -1,0 +1,408 @@
+{
+  "bname":"18QQ", 
+  "version":"REP01", 
+  "author":"Rich Price",
+  "board": {
+    "imgLoc":"images/18QQ-REP01/Map1.png", 
+    "imgHght":1479, 
+    "imgWdth":1215, 
+    "xStart":1, 
+    "xStep":50, 
+    "yStart":36, 
+    "yStep":88
+  },
+  "market": {
+    "imgLoc":"images/18QQ-REP01/Chart1.png", 
+    "imgHght":720, 
+    "imgWdth":1051, 
+    "xStart":0, 
+    "xStep":50, 
+    "yStart":0, 
+    "yStep":65
+  },
+  "tray": [
+  {
+    "type":"tile", 
+    "tName":"Yellow Tiles", 
+    "imgLoc":"images/18QQ-REP01/Yellow1.png", 
+    "xStart":24, 
+    "xSize":100, 
+    "xStep":127, 
+    "yStart":30, 
+    "ySize":116, 
+    "yStep":130, 
+    "tile":[ 
+    {
+      "dups":1, 
+      "rots":3
+    }, {
+      "dups":1, 
+      "rots":6
+    }, {
+      "dups":1, 
+      "rots":3
+    }, {
+      "dups":1, 
+      "rots":6
+    }, {
+      "dups":1, 
+      "rots":6
+    }, {
+      "dups":3, 
+      "rots":6
+    }, {
+      "dups":4, 
+      "rots":6
+    }, {
+      "dups":4, 
+      "rots":3
+    }, {
+      "dups":2, 
+      "rots":6
+    }, {
+      "dups":2, 
+      "rots":6
+    }, {
+      "dups":5, 
+      "rots":3
+    }, {
+      "dups":9, 
+      "rots":6
+    }, {
+      "dups":22, 
+      "rots":6
+    }, {
+      "dups":23, 
+      "rots":3
+    }]
+  },
+  {
+    "type":"tile", 
+    "tName":"Green Tiles", 
+    "imgLoc":"images/18QQ-REP01/GreenT.png", 
+    "xStart":15, 
+    "xSize":100, 
+    "xStep":127, 
+    "yStart":11, 
+    "ySize":116, 
+    "yStep":130, 
+    "tile":[ 
+    {
+      "dups":2, 
+      "rots":6
+    }, {
+      "dups":2, 
+      "rots":3
+    }, {
+      "dups":2, 
+      "rots":6
+    }, {
+      "dups":2, 
+      "rots":6
+    }, {
+      "dups":2, 
+      "rots":3
+    }, {
+      "dups":4, 
+      "rots":6
+    }, {
+      "dups":4, 
+      "rots":6
+    }, {
+      "dups":3, 
+      "rots":6
+    }, {
+      "dups":2, 
+      "rots":6
+    }, {
+      "dups":2, 
+      "rots":6
+    }, {
+      "dups":2, 
+      "rots":6
+    }, {
+      "dups":2, 
+      "rots":6
+    }]
+  },
+  {
+    "type":"tile", 
+    "tName":"Green Cities", 
+    "imgLoc":"images/18QQ-REP01/GreenC.png", 
+    "xStart":22, 
+    "xSize":100, 
+    "xStep":127, 
+    "yStart":11, 
+    "ySize":116, 
+    "yStep":130, 
+    "tile":[ 
+    {
+      "dups":2, 
+      "rots":6
+    }, {
+      "dups":2, 
+      "rots":6
+    }, {
+      "dups":1, 
+      "rots":6
+    }, {
+      "dups":1, 
+      "rots":2
+    }, {
+      "dups":4, 
+      "rots":3
+    }, {
+      "dups":4, 
+      "rots":6
+    }]
+  },
+  {
+    "type":"tile", 
+    "tName":"Brown Tiles", 
+    "imgLoc":"images/18QQ-REP01/BrownT.png", 
+    "xStart":13, 
+    "xSize":100, 
+    "xStep":127, 
+    "yStart":7, 
+    "ySize":116, 
+    "yStep":122, 
+    "tile":[ 
+    {
+      "dups":1, 
+      "rots":6
+    }, {
+      "dups":2, 
+      "rots":2
+    }, {
+      "dups":3, 
+      "rots":6
+    }, {
+      "dups":3, 
+      "rots":6
+    }, {
+      "dups":2, 
+      "rots":6
+    }, {
+      "dups":1, 
+      "rots":3
+    }, {
+      "dups":2, 
+      "rots":6
+    }, {
+      "dups":2, 
+      "rots":6
+    }, {
+      "dups":2, 
+      "rots":3
+    }, {
+      "dups":2, 
+      "rots":6
+    }]
+  },
+  {
+    "type":"tile", 
+    "tName":"Brown Cities", 
+    "imgLoc":"images/18QQ-REP01/BrownC.png", 
+    "xStart":1, 
+    "xSize":100, 
+    "xStep":127, 
+    "yStart":7, 
+    "ySize":116, 
+    "yStep":122, 
+    "tile":[ 
+    {
+      "dups":2, 
+      "rots":3
+    }, {
+      "dups":2, 
+      "rots":6
+    }, {
+      "dups":2, 
+      "rots":6
+    }, {
+      "dups":5, 
+      "rots":1
+    }, {
+      "dups":4, 
+      "rots":6
+    }]
+  },
+  {
+    "type":"tile", 
+    "tName":"Grey Tiles", 
+    "imgLoc":"images/18QQ-REP01/Grey1.png", 
+    "xStart":28, 
+    "xSize":100, 
+    "xStep":127, 
+    "yStart":4, 
+    "ySize":116, 
+    "yStep":120, 
+    "tile":[ 
+    {
+      "dups":1, 
+      "rots":1
+    }, {
+      "dups":1, 
+      "rots":1
+    }]
+  },
+  {
+    "type":"btok", 
+    "tName":"Stations", 
+    "imgLoc":"images/18QQ-REP01/Tokens1.png", 
+    "xStart":5, 
+    "xSize":30, 
+    "xStep":41, 
+    "yStart":5, 
+    "ySize":30, 
+    "yStep":34, 
+    "token":[ 
+    {
+      "dups":4, 
+      "flip":true
+    }, {
+      "dups":3, 
+      "flip":true
+    }, {
+      "dups":3, 
+      "flip":true
+    }, {
+      "dups":3, 
+      "flip":true
+    }, {
+      "dups":4, 
+      "flip":true
+    }, {
+      "dups":4, 
+      "flip":true
+    }, {
+      "dups":4, 
+      "flip":true
+    }, {
+      "dups":3, 
+      "flip":true
+    }, {
+      "dups":4, 
+      "flip":true
+    }, {
+      "dups":3, 
+      "flip":true
+    }]
+  },
+  {
+    "type":"btok", 
+    "tName":"Other Tokens", 
+    "imgLoc":"images/18QQ-REP01/Tokens2.png", 
+    "xStart":3, 
+    "xSize":30, 
+    "xStep":31, 
+    "yStart":1, 
+    "ySize":30, 
+    "yStep":35, 
+    "token":[ 
+    {
+      "dups":1, 
+      "flip":false
+    }, {
+      "dups":1, 
+      "flip":false
+    }, {
+      "dups":1, 
+      "flip":false
+    }, {
+      "dups":1, 
+      "flip":false
+    }, {
+      "dups":1, 
+      "flip":false
+    }, {
+      "dups":4, 
+      "flip":false
+    }, {
+      "dups":10, 
+      "flip":false
+    }]
+  },
+  {
+    "type":"btok", 
+    "tName":"Dest. Values", 
+    "imgLoc":"images/18QQ-REP01/Tokens3.png", 
+    "xStart":4, 
+    "xSize":20, 
+    "xStep":21, 
+    "yStart":2, 
+    "ySize":52, 
+    "yStep":56, 
+    "token":[ 
+    {
+      "dups":1, 
+      "flip":false
+    }, {
+      "dups":1, 
+      "flip":false
+    }, {
+      "dups":1, 
+      "flip":false
+    }, {
+      "dups":1, 
+      "flip":false
+    }, {
+      "dups":1, 
+      "flip":false
+    }, {
+      "dups":1, 
+      "flip":false
+    }, {
+      "dups":1, 
+      "flip":false
+    }, {
+      "dups":1, 
+      "flip":false
+    }, {
+      "dups":1, 
+      "flip":false
+    }, {
+      "dups":1, 
+      "flip":false
+    }, {
+      "dups":1, 
+      "flip":false
+    }, {
+      "dups":1, 
+      "flip":false
+    }]
+  },
+  {
+    "type":"mtok", 
+    "tName":"Tokens", 
+    "imgLoc":"images/18QQ-REP01/Tokens.png", 
+    "xStart":5, 
+    "xSize":30, 
+    "xStep":41, 
+    "yStart":5, 
+    "ySize":30, 
+    "yStep":34, 
+    "token":[ 
+    {
+      "flip":true
+    }, {
+      "flip":true
+    }, {
+      "flip":true
+    }, {
+      "flip":true
+    }, {
+      "flip":true
+    }, {
+      "flip":true
+    }, {
+      "flip":true
+    }, {
+      "flip":true
+    }, {
+      "flip":true
+    }, {
+      "flip":true
+    }]
+  }]
+}
