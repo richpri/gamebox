@@ -6,10 +6,10 @@
     "imgLoc":"images/18QQ-REP01/Map1.png", 
     "imgHght":1479, 
     "imgWdth":1215, 
-    "xStart":1, 
+    "xStart":0, 
     "xStep":50, 
     "yStart":36, 
-    "yStep":88
+    "yStep":87
   },
   "market": {
     "imgLoc":"images/18QQ-REP01/Chart1.png", 
@@ -298,7 +298,7 @@
     "xStep":31, 
     "yStart":1, 
     "ySize":30, 
-    "yStep":35, 
+    "yStep":34, 
     "token":[ 
     {
       "dups":1, 
