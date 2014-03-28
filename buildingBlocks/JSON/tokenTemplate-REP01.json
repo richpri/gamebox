@@ -1,0 +1,44 @@
+  {
+    "type":"btok", 
+    "tName":"Stations", 
+    "imgLoc":"images/xxxx-REP01/Tokens1.png", 
+    "xStart":5, 
+    "xSize":30, 
+    "xStep":40, 
+    "yStart":10, 
+    "ySize":30, 
+    "yStep":33, 
+    "token":[ 
+    {
+      "dups":n, 
+      "flip":false
+    }, {
+      "dups":n, 
+      "flip":false
+    }, {
+      "dups":n, 
+      "flip":false
+    }, {
+      "dups":n, 
+      "flip":false
+    }, {
+      "dups":n, 
+      "flip":false
+    }, {
+      "dups":n, 
+      "flip":false
+    }, {
+      "dups":n, 
+      "flip":false
+    }, {
+      "dups":n, 
+      "flip":false
+    }, {
+      "dups":n, 
+      "flip":false
+    }, {
+      "dups":n, 
+      "flip":false
+    }]
+  },
+

@@ -1,0 +1,55 @@
+  {
+    "type":"tile", 
+    "tName":"Yellow Tiles", 
+    "imgLoc":"images/xxxx-REP01/Yellow1.png", 
+    "xStart":20, 
+    "xSize":100, 
+    "xStep":120, 
+    "yStart":20, 
+    "ySize":116, 
+    "yStep":130, 
+    "tile":[ 
+    {
+      "dups":n, 
+      "rots":n
+    }, {
+      "dups":n, 
+      "rots":n
+    }, {
+      "dups":n, 
+      "rots":n
+    }, {
+      "dups":n, 
+      "rots":n
+    }, {
+      "dups":n, 
+      "rots":n
+    }, {
+      "dups":n, 
+      "rots":n
+    }, {
+      "dups":n, 
+      "rots":n
+    }, {
+      "dups":n, 
+      "rots":n
+    }, {
+      "dups":n, 
+      "rots":n
+    }, {
+      "dups":n, 
+      "rots":n
+    }, {
+      "dups":n, 
+      "rots":n
+    }, {
+      "dups":n, 
+      "rots":n
+    }, {
+      "dups":n, 
+      "rots":n
+    }, {
+      "dups":n, 
+      "rots":n
+    }]
+  },

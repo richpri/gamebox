@@ -165,7 +165,7 @@
     "xStep":127, 
     "yStart":7, 
     "ySize":116, 
-    "yStep":122, 
+    "yStep":131, 
     "tile":[ 
     {
       "dups":1, 
@@ -208,7 +208,7 @@
     "xStep":127, 
     "yStart":7, 
     "ySize":116, 
-    "yStep":122, 
+    "yStep":131, 
     "tile":[ 
     {
       "dups":2, 
@@ -375,7 +375,7 @@
   {
     "type":"mtok", 
     "tName":"Tokens", 
-    "imgLoc":"images/18QQ-REP01/Tokens.png", 
+    "imgLoc":"images/18QQ-REP01/Tokens1.png", 
     "xStart":5, 
     "xSize":30, 
     "xStep":41, 
@@ -403,6 +403,8 @@
       "flip":true
     }, {
       "flip":true
+    }, {
+      "flip":false
     }]
   }]
 }

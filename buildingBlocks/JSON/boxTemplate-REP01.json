@@ -1,0 +1,42 @@
+{
+  "bname":"xxxxx", 
+  "version":"REP01", 
+  "author":"Rich Price",
+  "board": {
+    "imgLoc":"images/xxxx-REP01/Map1.png", 
+    "imgHght":nnnn, 
+    "imgWdth":nnnn, 
+    "xStart":nn, 
+    "xStep":50, 
+    "yStart":nn, 
+    "yStep":87
+  },
+  "market": {
+    "imgLoc":"images/xxx-REP01/Chart1.png", 
+    "imgHght":nnnn, 
+    "imgWdth":nnnn, 
+    "xStart":0, 
+    "xStep":nn, 
+    "yStart":0, 
+    "yStep":nn
+  },
+  "tray": [
+  {
+  },
+  {
+  },
+  {
+  },
+  {
+  },
+  {
+  },
+  {
+  },
+  {
+  },
+  {
+  },
+  }]
+}
+

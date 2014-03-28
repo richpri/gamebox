@@ -1,0 +1,34 @@
+  {
+    "type":"mtok", 
+    "tName":"Tokens", 
+    "imgLoc":"images/xxxx-REP01/Tokens1.png", 
+    "xStart":5, 
+    "xSize":30, 
+    "xStep":40, 
+    "yStart":10, 
+    "ySize":30, 
+    "yStep":33, 
+    "token":[ 
+    {
+      "flip":false
+    }, {
+      "flip":false
+    }, {
+      "flip":false
+    }, {
+      "flip":false
+    }, {
+      "flip":false
+    }, {
+      "flip":false
+    }, {
+      "flip":false
+    }, {
+      "flip":false
+    }, {
+      "flip":false
+    }, {
+      "flip":false
+    }, {
+      "flip":false
+    }]
