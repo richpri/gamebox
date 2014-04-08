@@ -4,21 +4,21 @@
   "author":"Rich Price",
   "board": {
     "imgLoc":"images/xxxx-REP01/Map1.png", 
-    "imgHght":nnnn, 
-    "imgWdth":nnnn, 
-    "xStart":nn, 
+    "imgHght":9999, 
+    "imgWdth":9999, 
+    "xStart":99, 
     "xStep":50, 
-    "yStart":nn, 
+    "yStart":99, 
     "yStep":87
   },
   "market": {
     "imgLoc":"images/xxx-REP01/Chart1.png", 
-    "imgHght":nnnn, 
-    "imgWdth":nnnn, 
+    "imgHght":9999, 
+    "imgWdth":9999, 
     "xStart":0, 
-    "xStep":nn, 
+    "xStep":99, 
     "yStart":0, 
-    "yStep":nn
+    "yStep":99
   },
   "tray": [
   {
@@ -37,6 +37,7 @@
   },
   {
   },
+  {
   }]
 }
 
