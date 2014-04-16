@@ -1,0 +1,18 @@
+#!/bin/bash
+source $(dirname $0)/config.sh
+# Create a zip file for a game box
+cd $boxesRoot
+rm -f ~/board18-$1.zip
+rm -f -r ~/board18-$1
+mkdir ~/board18-$1
+install -p -t ~/board18-$1 documentation/README.txt
+install -p -t ~/board18-$1 documentation/LICENSE.txt
+pushd control > /dev/null
+install -p -t ~/board18-$1 $1.json
+popd > /dev/null
+pushd images > /dev/null
+mkdir ~/board18-$1/$1
+install -p -t ~/board18-$1/$1 $1/*.*
+popd > /dev/null
+cd ~
+zip -r ~/board18-$1.zip board18-$1
