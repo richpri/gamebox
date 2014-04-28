@@ -174,7 +174,7 @@
     "xStep":127, 
     "yStart":7, 
     "ySize":116, 
-    "yStep":122, 
+    "yStep":130, 
     "tile":[ 
     {
       "dups":1, 
@@ -217,7 +217,7 @@
     "xStep":127, 
     "yStart":7, 
     "ySize":116, 
-    "yStep":122, 
+    "yStep":130, 
     "tile":[ 
     {
       "dups":2, 
