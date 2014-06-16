@@ -30,7 +30,7 @@ def tile_adjust(inImg, inLayer) :
     rotLayer = pdb.gimp_image_flatten(inImg)
     pdb.plug_in_autocrop(inImg, rotLayer)
     pdb.gimp_image_scale(inImg, 100, 116)
-    pdb.gimp_fuzzy_select(rotLayer, 5, 5, 128, 0, 1, 0, 0, 0)
+    pdb.gimp_fuzzy_select(rotLayer, 5, 5, 20, 0, 1, 0, 0, 0)
     pdb.gimp_layer_add_alpha(rotLayer)
     pdb.plug_in_colortoalpha(inImg, rotLayer, (255, 255, 255))
     pdb.gimp_selection_none(inImg)
