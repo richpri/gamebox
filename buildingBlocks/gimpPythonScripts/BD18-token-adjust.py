@@ -20,10 +20,6 @@ def token_adjust(inImg, inLayer) :
     pdb.plug_in_autocrop(inImg, bigLayer)
     pdb.gimp_layer_flatten(bigLayer)
     pdb.gimp_image_scale(inImg, 30, 30)
-    pdb.gimp_fuzzy_select(bigLayer, 3, 3, 255, 0, 1, 0, 0, 0)
-    pdb.gimp_layer_add_alpha(bigLayer)
-    pdb.plug_in_colortoalpha(inImg, bigLayer, (255, 255, 255))
-    pdb.gimp_selection_none(inImg)
     
 register(
     "token_adjust",
