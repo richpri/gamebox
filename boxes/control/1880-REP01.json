@@ -12,8 +12,8 @@
   "market": {
     "imgLoc":"images/1880-REP01/Chart1.png", 
     "xStart":24, 
-    "xStep":76, 
-    "yStart":46 
+    "xStep":75, 
+    "yStart":46, 
     "yStep":80
   },
   "tray": [
@@ -254,6 +254,73 @@
     }]
   },
   {
+    "type":"btok", 
+    "tName":"Stations", 
+    "imgLoc":"images/1880-REP01/Tokens1.png", 
+    "xStart":10, 
+    "xSize":30, 
+    "xStep":40, 
+    "yStart":10, 
+    "ySize":30, 
+    "yStep":40, 
+    "token":[ 
+    {
+      "dups":4, 
+      "flip":false
+    }, {
+      "dups":4, 
+      "flip":false
+    }, {
+      "dups":4, 
+      "flip":false
+    }, {
+      "dups":4, 
+      "flip":false
+    }, {
+      "dups":4, 
+      "flip":false
+    }, {
+      "dups":4, 
+      "flip":false
+    }, {
+      "dups":4, 
+      "flip":false
+    }, {
+      "dups":4, 
+      "flip":false
+    }, {
+      "dups":4, 
+      "flip":false
+    }, {
+      "dups":4, 
+      "flip":false
+    }, {
+      "dups":4, 
+      "flip":false
+    }, {
+      "dups":4, 
+      "flip":false
+    }, {
+      "dups":4, 
+      "flip":false
+    }, {
+      "dups":4, 
+      "flip":false
+    }, {
+      "dups":1, 
+      "flip":false
+    }, {
+      "dups":1, 
+      "flip":false
+    }, {
+      "dups":1, 
+      "flip":false
+    }, {
+      "dups":1, 
+      "flip":false
+    }]
+  },
+  {
     "type":"mtok", 
     "tName":"Tokens", 
     "imgLoc":"images/1880-REP01/Tokens2.png", 
@@ -299,74 +366,6 @@
     }, {
       "flip":false
     }]
-  },
-    {
-    "type":"btok", 
-    "tName":"Stations", 
-    "imgLoc":"images/1880-REP01/Tokens1.png", 
-    "xStart":10, 
-    "xSize":30, 
-    "xStep":40, 
-    "yStart":10, 
-    "ySize":30, 
-    "yStep":40, 
-    "token":[ 
-    {
-      "dups":4, 
-      "flip":false
-    }, {
-      "dups":4, 
-      "flip":false
-    }, {
-      "dups":4, 
-      "flip":false
-    }, {
-      "dups":4, 
-      "flip":false
-    }, {
-      "dups":4, 
-      "flip":false
-    }, {
-      "dups":4, 
-      "flip":false
-    }, {
-      "dups":4, 
-      "flip":false
-    }, {
-      "dups":4, 
-      "flip":false
-    }, {
-      "dups":4, 
-      "flip":false
-}, {
-      "dups":4, 
-      "flip":false
-    }, {
-      "dups":4, 
-      "flip":false
-    }, {
-      "dups":4, 
-      "flip":false
-    }, {
-      "dups":4, 
-      "flip":false
-    }, {
-      "dups":4, 
-      "flip":false
-    }, {
-      "dups":1, 
-      "flip":false
-    }, {
-      "dups":1, 
-      "flip":false
-    }, {
-      "dups":1, 
-      "flip":false
-    }, {
-      "dups":1, 
-      "flip":false
-    }]
   }
 ]
 }
-
