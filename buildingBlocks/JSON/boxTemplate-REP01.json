@@ -4,8 +4,6 @@
   "author":"Rich Price",
   "board": {
     "imgLoc":"images/xxxx-REP01/Map1.png", 
-    "imgHght":9999, 
-    "imgWdth":9999, 
     "xStart":99, 
     "xStep":50, 
     "yStart":99, 
@@ -13,8 +11,6 @@
   },
   "market": {
     "imgLoc":"images/xxx-REP01/Chart1.png", 
-    "imgHght":9999, 
-    "imgWdth":9999, 
     "xStart":0, 
     "xStep":99, 
     "yStart":0, 
