@@ -209,7 +209,7 @@
   }, {
     "type":"btok", 
     "tName":"Tokens", 
-    "imgLoc":"images/1826-REP02/Tokens.png", 
+    "imgLoc":"images/1826-REP02/Tokens1.png", 
     "xStart":10, 
     "xSize":30, 
     "xStep":40, 
@@ -259,7 +259,7 @@
   }, {
     "type":"mtok", 
     "tName":"Tokens", 
-    "imgLoc":"images/1826-REP02/Tokens.png", 
+    "imgLoc":"images/1826-REP02/Tokens1.png", 
     "xStart":10, 
     "xSize":30, 
     "xStep":40, 
