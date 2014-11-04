@@ -27,32 +27,32 @@
     "ySize":116, 
     "yStep":130, 
     "tile":[ {
+      "dups":4, 
+      "rots":6
+    }, {
+      "dups":16, 
+      "rots":6
+    }, {
+      "dups":21, 
+      "rots":3
+    }, {
+      "dups":2, 
+      "rots":6
+    }, {
+      "dups":2, 
+      "rots":6
+    }, {
+      "dups":4, 
+      "rots":3
+    }, {
       "dups":2, 
       "rots":6
     }, {
       "dups":6, 
-      "rots":6
+      "rots":3
     }, {
       "dups":6, 
-      "rots":3
-    }, {
-      "dups":2, 
       "rots":6
-    }, {
-      "dups":2, 
-      "rots":6
-    }, {
-      "dups":5, 
-      "rots":3
-    }, {
-      "dups":20, 
-      "rots":6
-    }, {
-      "dups":30, 
-      "rots":6
-    }, {
-      "dups":30, 
-      "rots":3
     }]
   }, {
     "type":"tile", 
@@ -65,10 +65,13 @@
     "ySize":116, 
     "yStep":130, 
     "tile":[ {
-      "dups":1, 
+      "dups":2, 
       "rots":6
     }, {
-      "dups":1, 
+      "dups":2, 
+      "rots":6
+    }, {
+      "dups":2, 
       "rots":3
     }, {
       "dups":4, 
@@ -80,19 +83,16 @@
       "dups":3, 
       "rots":6
     }, {
-      "dups":1, 
+      "dups":2, 
       "rots":6
     }, {
-      "dups":1, 
+      "dups":2, 
       "rots":6
     }, {
-      "dups":1, 
+      "dups":2, 
       "rots":6
     }, {
-      "dups":1, 
-      "rots":6
-    }, {
-      "dups":1, 
+      "dups":2, 
       "rots":6
     }]
   }, {
@@ -106,10 +106,22 @@
     "ySize":116, 
     "yStep":130, 
     "tile":[ {
-      "dups":2, 
+      "dups":3, 
+      "rots":3
+    }, {
+      "dups":3, 
       "rots":6
     }, {
-      "dups":2, 
+      "dups":3, 
+      "rots":6
+    }, {
+      "dups":1, 
+      "rots":1
+    }, {
+      "dups":1, 
+      "rots":6
+    }, {
+      "dups":1, 
       "rots":3
     }, {
       "dups":1, 
@@ -124,19 +136,7 @@
       "dups":1, 
       "rots":2
     }, {
-      "dups":2, 
-      "rots":6
-    }, {
-      "dups":3, 
-      "rots":3
-    }, {
-      "dups":3, 
-      "rots":6
-    }, {
       "dups":1, 
-      "rots":1
-    }, {
-      "dups":3, 
       "rots":6
     }]
   }, {
@@ -153,11 +153,11 @@
       "dups":5, 
       "rots":1
     }, {
+      "dups":2, 
+      "rots":6
+    }, {
       "dups":1, 
       "rots":1
-    }, {
-      "dups":2, 
-      "rots":2
     }, {
       "dups":1, 
       "rots":6
@@ -175,7 +175,7 @@
       "rots":6
     }, {
       "dups":1, 
-      "rots":3
+      "rots":6
     }, {
       "dups":2, 
       "rots":6
@@ -200,7 +200,7 @@
     "ySize":116, 
     "yStep":130, 
     "tile":[ {
-      "dups":1, 
+      "dups":3, 
       "rots":1
     }, {
       "dups":1, 
@@ -226,7 +226,7 @@
       "dups":5, 
       "flip":false
     }, {
-      "dups":5, 
+      "dups":12, 
       "flip":false
     }, {
       "dups":5, 
@@ -241,16 +241,16 @@
       "dups":5, 
       "flip":false
     }, {
-      "dups":4, 
-      "flip":false
-    }, {
       "dups":5, 
       "flip":false
     }, {
       "dups":5, 
       "flip":false
     }, {
-      "dups":15, 
+      "dups":5, 
+      "flip":false
+    }, {
+      "dups":23, 
       "flip":false
     }, {
       "dups":1, 
