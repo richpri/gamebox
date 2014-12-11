@@ -29,7 +29,7 @@
     "yStep":130, 
     "tile":[ 
     {
-      "dups":23, 
+      "dups":25, 
       "rots":3
     }, {
       "dups":22, 
@@ -50,7 +50,7 @@
       "dups":6, 
       "rots":3
     }, {
-      "dups":4, 
+      "dups":6, 
       "rots":6
     }, {
       "dups":3, 

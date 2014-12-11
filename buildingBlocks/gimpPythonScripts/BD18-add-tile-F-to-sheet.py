@@ -6,8 +6,8 @@
 import os
 from gimpfu import *
 
-def add_tile_to_sheet(img, layer, tileName, columnNumb, rowCount):
-    ''' Create a column of tiles on a tile sheet.
+def add_tile_F_to_sheet(img, layer, tileName, columnNumb, rowCount):
+    ''' Create a column of tiles on a type F tile sheet.
     
     Parameters:
     img : image The current image.
@@ -33,14 +33,14 @@ def add_tile_to_sheet(img, layer, tileName, columnNumb, rowCount):
         pdb.gimp.message("Copy failed on input tile.")
         return 1
     # Calculate desired column position for tile.
-    newX = 20 + ((columnNumb - 1) * 120)
+    newX = 20 + ((columnNumb - 1) * 130)
     for i in range(int(rowCount)):  
         # Paste the tile into the tile sheet.
         theSel = pdb.gimp_edit_paste(inLayer, 0)
         # Find current position of tile.
         (offsetX, offsetY) = pdb.gimp_drawable_offsets(theSel)
         # Calculate desired row position for tile.
-        newY = 20 + (i * 130)
+        newY = 20 + (i * 120)
         # Reposition the tile on the tile sheet.
         pdb.gimp_layer_translate(theSel, newX-offsetX, newY-offsetY)
         # Rotate the tile to the correct orientation.
@@ -51,13 +51,13 @@ def add_tile_to_sheet(img, layer, tileName, columnNumb, rowCount):
     return 0
     
 register(
-    "add_tile_to_sheet",
-    "Add tile to sheet",
-    "Create a column of tiles on a tile sheet.",
+    "add_tile_F_to_sheet",
+    "Create a column of type F tiles on a tile sheet",
+    "Create a column of type F tiles on a tile sheet",
     "Rich Price",
-    "Open source MIT License",
+    "Rich Price",
     "2014",
-    "<Image>/Filters/BD18/Add-Tile-to-Sheet",
+    "<Image>/Filters/BD18/Add-Tile-F-to-Sheet",
     "*",
     [
         (PF_FILE, "tileName", "Tile to Add", ""),
@@ -65,6 +65,6 @@ register(
         (PF_SPINNER, "rowCount", "Row Count", 6, (1,6,1))
     ],
     [],
-    add_tile_to_sheet)
+    add_tile_F_to_sheet)
 
 main()
