@@ -46,10 +46,10 @@ def add_token_to_sheet(img, layer, tokenName, rowNumb, columnNumb):
     
 register(
     "add_token_to_sheet",
-    "Add token to sheet",
+    "Paste a token onto the token sheet.",
     "Paste a token onto the token sheet.",
     "Rich Price",
-    "Open source MIT License",
+    "Rich Price",
     "2014",
     "<Image>/Filters/BD18/Add-Token-to-Sheet",
     "*",
@@ -62,4 +62,3 @@ register(
     add_token_to_sheet)
 
 main()
-

@@ -7,7 +7,7 @@
 from gimpfu import *
 
 def token_adjust(inImg, inLayer) :
-    ''' Adjust the scale of a token image.
+    ''' Adjust the scale of a token image to 30 pix square.
     
     Parameters:
     inImg   : The current image.
@@ -23,10 +23,10 @@ def token_adjust(inImg, inLayer) :
     
 register(
     "token_adjust",
-    "Adjust the scale of a token image",
-    "Scale it to 30x30 pix",
+    "Adjust the scale of a token image to 30 pix square.",
+    "Adjust the scale of a token image to 30 pix square.",
     "Rich Price",
-    "Open source MIT License",
+    "Rich Price",
     "2014",
     "<Image>/Filters/BD18/Token-Adjust",
     "*",

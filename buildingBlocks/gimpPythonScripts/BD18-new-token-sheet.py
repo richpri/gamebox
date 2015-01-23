@@ -19,20 +19,21 @@ def new_token_sheet(img, layer, rowCount, columnCount):
     newHeight = 10 + (rowCount * 40)
     # Calculate the width of the token sheet.
     newWidth = 10 + (columnCount * 40)
-    pdb.gimp_context_set_background((0, 102, 255))
+
     theImage = pdb.gimp_image_new(newWidth, newHeight,  0)
     theLayer = pdb.gimp_layer_new(theImage, newWidth, newHeight, 0, "theLayer", 100, 0)
-    pdb.gimp_drawable_fill(theLayer, 1)
+    pdb.gimp_layer_add_alpha(theLayer)
+    pdb.gimp_drawable_fill(theLayer, 3)
     pdb.gimp_image_add_layer(theImage, theLayer, 0)
     pdb.gimp_display_new(theImage)
     return 0
     
 register(
     "new_token_sheet",
-    "New token sheet",
+    "Create a new token sheet.",
     "Create a new token sheet.",
     "Rich Price",
-    "Open source MIT License",
+    "Rich Price",
     "2014",
     "<Image>/Filters/BD18/New-Token-Sheet",
     "",
