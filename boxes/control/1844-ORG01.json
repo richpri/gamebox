@@ -1,17 +1,17 @@
 {
 "bname":"1844", 
-"version":"PAZ01", 
+"version":"ORG01", 
 "author":"Paul Zieske",
 "board": {
-"imgLoc":"images/1844-PAZ01/map.png", 
+"imgLoc":"images/1844-ORG01/map.png", 
 "orientation":"P",
-"xStart":-51, 
+"xStart":-52, 
 "xStep":50, 
-"yStart":-1, 
+"yStart":-2, 
 "yStep":86
 },
 "market": {
-"imgLoc":"images/1844-PAZ01/stock.png", 
+"imgLoc":"images/1844-ORG01/stock.png", 
 "xStart":0, 
 "xStep":50, 
 "yStart":0, 
@@ -20,7 +20,7 @@
 "tray": [ {
 "type":"tile", 
 "tName":"Yellow Tiles", 
-"imgLoc":"images/1844-PAZ01/yellow.png", 
+"imgLoc":"images/1844-ORG01/yellow.png", 
 "xStart":20, 
 "xSize":100, 
 "xStep":120, 
@@ -58,7 +58,7 @@
 } ] }, {
 "type":"tile", 
 "tName":"Green Track", 
-"imgLoc":"images/1844-PAZ01/green1.png", 
+"imgLoc":"images/1844-ORG01/green1.png", 
 "xStart":20, 
 "xSize":100, 
 "xStep":120, 
@@ -102,7 +102,7 @@
 } ] }, {
 "type":"tile", 
 "tName":"Green Cities", 
-"imgLoc":"images/1844-PAZ01/green2.png", 
+"imgLoc":"images/1844-ORG01/green2.png", 
 "xStart":20, 
 "xSize":100, 
 "xStep":120, 
@@ -146,7 +146,7 @@
 } ] }, {
 "type":"tile", 
 "tName":"Brown Track", 
-"imgLoc":"images/1844-PAZ01/brown1.png", 
+"imgLoc":"images/1844-ORG01/brown1.png", 
 "xStart":20, 
 "xSize":100, 
 "xStep":120, 
@@ -187,7 +187,7 @@
 } ] }, {
 "type":"tile", 
 "tName":"Brown Cities", 
-"imgLoc":"images/1844-PAZ01/brown2.png", 
+"imgLoc":"images/1844-ORG01/brown2.png", 
 "xStart":20, 
 "xSize":100, 
 "xStep":120, 
@@ -228,7 +228,7 @@
 } ] }, {
 "type":"tile", 
 "tName":"Gray Tiles", 
-"imgLoc":"images/1844-PAZ01/gray.png", 
+"imgLoc":"images/1844-ORG01/gray.png", 
 "xStart":20, 
 "xSize":100, 
 "xStep":120, 
@@ -237,10 +237,10 @@
 "yStep":130, 
 "tile":[
 {
-"dups":2, 
+"dups":1, 
 "rots":1
 }, {
-"dups":3, 
+"dups":2, 
 "rots":6
 }, {
 "dups":1, 
@@ -254,7 +254,7 @@
 } ] }, {
 "type":"tile", 
 "tName":"Specials", 
-"imgLoc":"images/1844-PAZ01/special.png", 
+"imgLoc":"images/1844-ORG01/special.png", 
 "xStart":20, 
 "xSize":100, 
 "xStep":120, 
@@ -310,7 +310,7 @@
 } ] }, {
 "type":"btok", 
 "tName":"Tokens", 
-"imgLoc":"images/1844-PAZ01/btoks1.png", 
+"imgLoc":"images/1844-ORG01/btoks1.png", 
 "xStart":10, 
 "xSize":30, 
 "xStep":40, 
@@ -366,7 +366,7 @@
 } ] }, {
 "type":"btok", 
 "tName":"Markers", 
-"imgLoc":"images/1844-PAZ01/btoks2.png", 
+"imgLoc":"images/1844-ORG01/btoks2.png", 
 "xStart":10, 
 "xSize":30, 
 "xStep":40, 
@@ -407,7 +407,7 @@
 } ] }, {
 "type":"btok", 
 "tName":"Mountain Values", 
-"imgLoc":"images/1844-PAZ01/btoks3.png", 
+"imgLoc":"images/1844-ORG01/btoks3.png", 
 "xStart":10, 
 "xSize":69, 
 "xStep":70, 
@@ -427,7 +427,7 @@
 } ] }, {
 "type":"mtok", 
 "tName":"Tokens", 
-"imgLoc":"images/1844-PAZ01/mtoks.png", 
+"imgLoc":"images/1844-ORG01/mtoks.png", 
 "xStart":10, 
 "xSize":30, 
 "xStep":40, 
