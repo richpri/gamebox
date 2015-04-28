@@ -5,9 +5,9 @@
 "board": {
 "imgLoc":"images/1850-REP01/map1.png", 
 "orientation":"P",
-"xStart":-50, 
+"xStart":-74, 
 "xStep":50, 
-"yStart":0, 
+"yStart":-13, 
 "yStep":87
 },
 "market": {
@@ -15,7 +15,7 @@
 "xStart":0, 
 "xStep":50, 
 "yStart":0, 
-"yStep":65
+"yStep":64
 },
 "tray": [ {
 "type":"tile", 
