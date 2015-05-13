@@ -13,7 +13,7 @@
 "market": {
 "imgLoc":"images/1850-REP01/chart1.png", 
 "xStart":0, 
-"xStep":50, 
+"xStep":48, 
 "yStart":0, 
 "yStep":64
 },
