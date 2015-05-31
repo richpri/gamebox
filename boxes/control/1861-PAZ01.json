@@ -1,0 +1,479 @@
+{
+  "bname":"1861", 
+  "version":"PAZ01", 
+  "author":"Rich Price",
+  "board": {
+    "imgLoc":"images/1861-PAZ01/Map01.png", 
+    "xStart":90, 
+    "xStep":89, 
+    "yStart":0, 
+    "yStep":50
+  },
+  "market": {
+    "imgLoc":"images/1861-PAZ01/Market01.png", 
+    "xStart":0, 
+    "xStep":50, 
+    "yStart":0, 
+    "yStep":75
+  },
+  "tray": [
+  {
+    "type":"tile", 
+    "tName":"Yellow Tiles", 
+    "imgLoc":"images/1861-PAZ01/Yellow01.png", 
+    "xStart":20, 
+    "xSize":116, 
+    "xStep":130, 
+    "yStart":20, 
+    "ySize":100, 
+    "yStep":120, 
+    "tile":[ 
+    {
+      "dups":3, 
+      "rots":6
+    }, {
+      "dups":3, 
+      "rots":6
+    }, {
+      "dups":2, 
+      "rots":3
+    }, {
+      "dups":2, 
+      "rots":6
+    }, {
+      "dups":2, 
+      "rots":6
+    }, {
+      "dups":2, 
+      "rots":3
+    }, {
+      "dups":3, 
+      "rots":6
+    }, {
+      "dups":19, 
+      "rots":6
+    }, {
+      "dups":24, 
+      "rots":3
+    }, {
+      "dups":2, 
+      "rots":6
+    }, {
+      "dups":4, 
+      "rots":6
+    }, {
+      "dups":4, 
+      "rots":3
+    }]
+  },
+  {
+    "type":"tile", 
+    "tName":"Green Tiles", 
+    "imgLoc":"images/1861-PAZ01/Green02.png", 
+    "xStart":20, 
+    "xSize":116, 
+    "xStep":130, 
+    "yStart":20, 
+    "ySize":100, 
+    "yStep":120,  
+    "tile":[ 
+    {
+      "dups":2, 
+      "rots":6
+    }, {
+      "dups":2, 
+      "rots":3
+    }, {
+      "dups":2, 
+      "rots":6
+    }, {
+      "dups":2, 
+      "rots":6
+    }, {
+      "dups":2, 
+      "rots":3
+    }, {
+      "dups":2, 
+      "rots":6
+    }, {
+      "dups":2, 
+      "rots":6
+    }, {
+      "dups":5, 
+      "rots":6
+    }, {
+      "dups":5, 
+      "rots":6
+    }, {
+      "dups":4, 
+      "rots":6
+    }, {
+      "dups":2, 
+      "rots":6
+    }, {
+      "dups":2, 
+      "rots":6
+    }, {
+      "dups":2, 
+      "rots":6
+    }, {
+      "dups":2, 
+      "rots":6
+    }, {
+      "dups":2, 
+      "rots":6
+    }, {
+      "dups":2, 
+      "rots":6
+    }]
+  },
+  {
+    "type":"tile", 
+    "tName":"Green Cities", 
+    "imgLoc":"images/1861-PAZ01/Green01.png", 
+    "xStart":20, 
+    "xSize":116, 
+    "xStep":130, 
+    "yStart":20, 
+    "ySize":100, 
+    "yStep":120, 
+    "tile":[ 
+    {
+      "dups":5, 
+      "rots":6
+    }, {
+      "dups":2, 
+      "rots":3
+    }, {
+      "dups":2, 
+      "rots":6
+    }, {
+      "dups":2, 
+      "rots":3
+    }, {
+      "dups":2, 
+      "rots":6
+    }, {
+      "dups":2, 
+      "rots":6
+    }, {
+      "dups":1, 
+      "rots":2
+    }, {
+      "dups":1, 
+      "rots":2
+    }, {
+      "dups":2, 
+      "rots":6
+    }, {
+      "dups":2, 
+      "rots":3
+    }, {
+      "dups":2, 
+      "rots":6
+    }]
+  },
+  {
+    "type":"tile", 
+    "tName":"Brown Tiles", 
+    "imgLoc":"images/1861-PAZ01/Brown02.png", 
+    "xStart":20, 
+    "xSize":116, 
+    "xStep":130, 
+    "yStart":20, 
+    "ySize":100, 
+    "yStep":120,   
+    "tile":[ 
+    {
+      "dups":2, 
+      "rots":6
+    }, {
+      "dups":2, 
+      "rots":2
+    }, {
+      "dups":2, 
+      "rots":6
+    }, {
+      "dups":2, 
+      "rots":6
+    }, {
+      "dups":2, 
+      "rots":6
+    }, {
+      "dups":2, 
+      "rots":6
+    }, {
+      "dups":2, 
+      "rots":6
+    }, {
+      "dups":2, 
+      "rots":6
+    }, {
+      "dups":2, 
+      "rots":3
+    }]
+  },
+  
+  
+  {
+    "type":"tile", 
+    "tName":"Brown Cities", 
+    "imgLoc":"images/1861-PAZ01/Brown01.png", 
+    "xStart":20, 
+    "xSize":116, 
+    "xStep":130, 
+    "yStart":20, 
+    "ySize":100, 
+    "yStep":120,  
+    "tile":[ 
+    {
+      "dups":3, 
+      "rots":1
+    }, {
+      "dups":3, 
+      "rots":6
+    }, {
+      "dups":3, 
+      "rots":1
+    }, {
+      "dups":2, 
+      "rots":6
+    }, {
+      "dups":1, 
+      "rots":1
+    }, {
+      "dups":1, 
+      "rots":1
+    }, {
+      "dups":1, 
+      "rots":1
+    }, {
+      "dups":3, 
+      "rots":6
+    }]
+  },
+  {
+    "type":"tile", 
+    "tName":"Grey Tiles", 
+    "imgLoc":"images/1861-PAZ01/Grey01.png", 
+    "xStart":20, 
+    "xSize":116, 
+    "xStep":130, 
+    "yStart":20, 
+    "ySize":100, 
+    "yStep":120,  
+    "tile":[ 
+    {
+      "dups":1, 
+      "rots":1
+    }, {
+      "dups":1, 
+      "rots":1
+    }, {
+      "dups":1, 
+      "rots":1
+    }]
+  },
+  {
+    "type":"btok", 
+    "tName":"Yellow Minors", 
+    "imgLoc":"images/1861-PAZ01/Token01.png", 
+    "xStart":10, 
+    "xSize":30, 
+    "xStep":40, 
+    "yStart":10, 
+    "ySize":30, 
+    "yStep":40, 
+    "token":[ 
+    {
+      "dups":1, 
+      "flip":false
+    }, {
+      "dups":1, 
+      "flip":false
+    }, {
+      "dups":1, 
+      "flip":false
+    }, {
+      "dups":1, 
+      "flip":false
+    }, {
+      "dups":1, 
+      "flip":false
+    }, {
+      "dups":1, 
+      "flip":false
+    }, {
+      "dups":1, 
+      "flip":false
+    }, {
+      "dups":1, 
+      "flip":false
+    }, {
+      "dups":1, 
+      "flip":false
+    }, {
+      "dups":1, 
+      "flip":false
+    }]
+  },
+  {
+    "type":"btok", 
+    "tName":"Green Minors", 
+    "imgLoc":"images/1861-PAZ01/Token02.png", 
+    "xStart":10, 
+    "xSize":30, 
+    "xStep":40, 
+    "yStart":10, 
+    "ySize":30, 
+    "yStep":40, 
+    "token":[ 
+    {
+      "dups":1, 
+      "flip":false
+    }, {
+      "dups":1, 
+      "flip":false
+    }, {
+      "dups":1, 
+      "flip":false
+    }, {
+      "dups":1, 
+      "flip":false
+    }, {
+      "dups":1, 
+      "flip":false
+    }, {
+      "dups":1, 
+      "flip":false
+    }]
+  },
+  {
+    "type":"btok", 
+    "tName":"Public Companies", 
+    "imgLoc":"images/1861-PAZ01/Token03.png", 
+    "xStart":10, 
+    "xSize":30, 
+    "xStep":40, 
+    "yStart":10, 
+    "ySize":30, 
+    "yStep":40, 
+    "token":[ 
+    {
+      "dups":3, 
+      "flip":false
+    }, {
+      "dups":3, 
+      "flip":false
+    }, {
+      "dups":3, 
+      "flip":false
+    }, {
+      "dups":3, 
+      "flip":false
+    }, {
+      "dups":3, 
+      "flip":false
+    }, {
+      "dups":3, 
+      "flip":false
+    }, {
+      "dups":3, 
+      "flip":false
+    }, {
+      "dups":3, 
+      "flip":false
+    }, {
+      "dups":8, 
+      "flip":false
+    }]
+  },
+  {
+    "type":"mtok", 
+    "tName":"Yellow Minors", 
+    "imgLoc":"images/1861-PAZ01/Token01.png", 
+    "xStart":10, 
+    "xSize":30, 
+    "xStep":40, 
+    "yStart":10, 
+    "ySize":30, 
+    "yStep":40, 
+    "token":[ 
+    {
+      "flip":true
+    }, {
+      "flip":true
+    }, {
+      "flip":true
+    }, {
+      "flip":true
+    }, {
+      "flip":true
+    }, {
+      "flip":true
+    }, {
+      "flip":true
+    }, {
+      "flip":true
+    }, {
+      "flip":true
+    }, {
+      "flip":true
+    }]
+  },
+  {
+    "type":"mtok", 
+    "tName":"Green Minors", 
+    "imgLoc":"images/1861-PAZ01/Token02.png", 
+    "xStart":10, 
+    "xSize":30, 
+    "xStep":40, 
+    "yStart":10, 
+    "ySize":30, 
+    "yStep":40, 
+    "token":[ 
+    {
+      "flip":true
+    }, {
+      "flip":true
+    }, {
+      "flip":true
+    }, {
+      "flip":true
+    }, {
+      "flip":true
+    }, {
+      "flip":true
+    }]
+  },
+  {
+    "type":"mtok", 
+    "tName":"Public Companies", 
+    "imgLoc":"images/1861-PAZ01/Token03.png", 
+    "xStart":10, 
+    "xSize":30, 
+    "xStep":40, 
+    "yStart":10, 
+    "ySize":30, 
+    "yStep":40, 
+    "token":[ 
+    {
+      "flip":true
+    }, {
+      "flip":true
+    }, {
+      "flip":true
+    }, {
+      "flip":true
+    }, {
+      "flip":true
+    }, {
+      "flip":true
+    }, {
+      "flip":true
+    }, {
+      "flip":true
+    }]
+  }]
+}
+
