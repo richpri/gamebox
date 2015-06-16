@@ -16,3 +16,4 @@ install -p -t ~/board18-$1/$1 $1/*.*
 popd > /dev/null
 cd ~
 zip -r ~/board18-$1.zip board18-$1
+rm -f -r ~/board18-$1
