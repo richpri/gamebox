@@ -7,7 +7,8 @@
 from gimpfu import *
 
 def token_adjust(inImg, inLayer) :
-    ''' Adjust the scale of a token image to 30 pix square.
+    ''' Adjust the scale of a token image to 30 
+    pix square and make background transparent.
     
     Parameters:
     inImg   : The current image.
@@ -15,10 +16,14 @@ def token_adjust(inImg, inLayer) :
     '''
     w = gimp.pdb.gimp_image_width(inImg) + 100
     h = gimp.pdb.gimp_image_height(inImg) + 100
+    pdb.gimp_image_grid_set_background_color(inImg, (255, 255, 255))
     pdb.gimp_image_resize(inImg, w, h, 50, 50)
     bigLayer = pdb.gimp_image_flatten(inImg)
+    pdb.gimp_image_select_contiguous_color(inImg, 0, bigLayer, 5, 5)
+    pdb.gimp_layer_add_alpha(bigLayer)
+    pdb.plug_in_colortoalpha(inImg, bigLayer, (255, 255, 255))
+    pdb.gimp_selection_none(inImg)
     pdb.plug_in_autocrop(inImg, bigLayer)
-    pdb.gimp_layer_flatten(bigLayer)
     pdb.gimp_image_scale(inImg, 30, 30)
     
 register(
