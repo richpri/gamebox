@@ -80,8 +80,8 @@
   },
   {
     "type":"tile", 
-    "tName":"Green Cities", 
-    "imgLoc":"images/1880-REP02/Green1.png", 
+    "tName":"Green Tiles", 
+    "imgLoc":"images/1880-REP02/Green2.png", 
     "xStart":20, 
     "xSize":100, 
     "xStep":120, 
@@ -135,8 +135,8 @@
   },
   {
     "type":"tile", 
-    "tName":"Green Tiles", 
-    "imgLoc":"images/1880-REP02/Green2.png", 
+    "tName":"Green Cities", 
+    "imgLoc":"images/1880-REP02/Green1.png", 
     "xStart":20, 
     "xSize":100, 
     "xStep":120, 
