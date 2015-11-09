@@ -4,21 +4,21 @@
   "author":"Jeff Bosch", 
   "board": {
     "imgLoc":"images/1846-JB01/map.png", 
-    "imgHght":930, 
-    "imgWdth":1449,
-    "xStart":100, 
+    "imgHght":873, 
+    "imgWdth":1338,
+    "xStart":2, 
     "xStep":50, 
-    "yStart":32, 
+    "yStart":18, 
     "yStep":87
   }, 
   "market": {
     "imgLoc":"images/1846-JB01/Stock.png", 
-    "imgHght":278, 
-    "imgWdth":1553, 
-    "xStart":0, 
-    "xStep":50, 
+    "imgHght":216, 
+    "imgWdth":1338, 
+    "xStart":29, 
+    "xStep":42, 
     "yStart":0, 
-    "yStep":278
+    "yStep":108
   }, 
   "tray": [ {
     "type":"tile", 
@@ -219,25 +219,25 @@
     "ySize":30, 
     "yStep":40, 
     "token":[ {
-      "dups":4, 
+      "dups":7, 
       "flip":true
     }, {
-      "dups":4, 
+      "dups":7, 
       "flip":true
     }, {
-      "dups":4, 
+      "dups":7, 
       "flip":true
     }, {
-      "dups":4, 
+      "dups":6, 
       "flip":true
     }, {
-      "dups":3, 
+      "dups":7, 
       "flip":true
     }, {
-      "dups":4, 
+      "dups":7, 
       "flip":true
     }, {
-      "dups":4, 
+      "dups":8, 
       "flip":true
     }]
   }, {
@@ -274,31 +274,22 @@
     "ySize":30, 
     "yStep":40,
     "token":[ {
-      "dups":1, 
       "flip":true
     }, {
-      "dups":1, 
       "flip":true
     }, {
-      "dups":4, 
       "flip":true
     }, {
-      "dups":4, 
       "flip":true
     }, {
-      "dups":4, 
       "flip":true
     }, {
-      "dups":4, 
       "flip":true
     }, {
-      "dups":3, 
       "flip":true
     }, {
-      "dups":4, 
       "flip":true
     }, {
-      "dups":4, 
       "flip":true
     }]
   }]
