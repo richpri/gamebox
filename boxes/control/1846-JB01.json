@@ -1,0 +1,296 @@
+{
+  "bname":"1846", 
+  "version":"JB01", 
+  "author":"Jeff Bosch", 
+  "board": {
+    "imgLoc":"images/1846-JB01/map.png", 
+    "imgHght":873, 
+    "imgWdth":1338,
+    "xStart":2, 
+    "xStep":50, 
+    "yStart":18, 
+    "yStep":87
+  }, 
+  "market": {
+    "imgLoc":"images/1846-JB01/Stock.png", 
+    "imgHght":216, 
+    "imgWdth":1338, 
+    "xStart":29, 
+    "xStep":42, 
+    "yStart":0, 
+    "yStep":108
+  }, 
+  "tray": [ {
+    "type":"tile", 
+    "tName":"Yellow Tiles", 
+    "imgLoc":"images/1846-JB01/yellow.png", 
+    "xStart":20, 
+    "xSize":100, 
+    "xStep":120, 
+    "yStart":20, 
+    "ySize":116, 
+    "yStep":130,
+    "tile":[ {
+      "dups":3, 
+      "rots":6
+    }, {
+      "dups":4, 
+      "rots":6
+    }, {
+      "dups":5, 
+      "rots":3
+    }, {
+      "dups":15, 
+      "rots":6
+    }, {
+      "dups":15, 
+      "rots":3
+    }, {
+      "dups":4, 
+      "rots":3
+    }, {
+      "dups":1, 
+      "rots":6
+    }, {
+      "dups":1, 
+      "rots":6
+    }, {
+      "dups":1, 
+      "rots":3
+    }]
+  }, {
+    "type":"tile", 
+    "tName":"Green Tiles", 
+    "imgLoc":"images/1846-JB01/green.png", 
+    "xStart":20, 
+    "xSize":100, 
+    "xStep":120, 
+    "yStart":20, 
+    "ySize":116, 
+    "yStep":130,
+    "tile":[ {
+      "dups":4, 
+      "rots":3
+    }, {
+      "dups":5, 
+      "rots":6
+    }, {
+      "dups":2, 
+      "rots":6
+    }, {
+      "dups":1, 
+      "rots":3
+    }, {
+      "dups":1, 
+      "rots":3
+    }, {
+      "dups":2, 
+      "rots":3
+    }, {
+      "dups":2, 
+      "rots":3
+    }, {
+      "dups":1, 
+      "rots":6
+    }, {
+      "dups":1, 
+      "rots":6
+    }, {
+      "dups":4, 
+      "rots":6
+    }, {
+      "dups":4, 
+      "rots":6
+    }, {
+      "dups":2, 
+      "rots":6
+    }, {
+      "dups":1, 
+      "rots":6
+    }, {
+      "dups":1, 
+      "rots":6
+    }, {
+      "dups":1, 
+      "rots":6
+    }, {
+      "dups":1, 
+      "rots":6
+    }, {
+      "dups":1, 
+      "rots":6
+    }, {
+      "dups":1, 
+      "rots":6
+    }, {
+      "dups":2, 
+      "rots":3
+    }, {
+      "dups":2, 
+      "rots":6
+    }, {
+      "dups":1, 
+      "rots":6
+    }, {
+      "dups":1, 
+      "rots":1
+    }, {
+      "dups":4, 
+      "rots":6
+    }]
+  }, {
+    "type":"tile", 
+    "tName":"Brown Tiles", 
+    "imgLoc":"images/1846-JB01/brown.png", 
+    "xStart":20, 
+    "xSize":100, 
+    "xStep":120, 
+    "yStart":20, 
+    "ySize":116, 
+    "yStep":130,
+    "tile":[ {
+      "dups":1, 
+      "rots":6
+    }, {
+      "dups":1, 
+      "rots":2
+    }, {
+      "dups":2, 
+      "rots":6
+    }, {
+      "dups":2, 
+      "rots":6
+    }, {
+      "dups":2, 
+      "rots":6
+    }, {
+      "dups":1, 
+      "rots":3
+    }, {
+      "dups":2, 
+      "rots":6
+    }, {
+      "dups":2, 
+      "rots":6
+    }, {
+      "dups":2, 
+      "rots":3
+    }, {
+      "dups":1, 
+      "rots":6
+    }, {
+      "dups":2, 
+      "rots":6
+    }, {
+      "dups":1, 
+      "rots":3
+    }, {
+      "dups":4, 
+      "rots":6
+    }]
+  }, {
+    "type":"tile", 
+    "tName":"Grey Tiles", 
+    "imgLoc":"images/1846-JB01/grey.png", 
+    "xStart":20, 
+    "xSize":100, 
+    "xStep":120, 
+    "yStart":20, 
+    "ySize":116, 
+    "yStep":130,
+    "tile":[ {
+      "dups":2, 
+      "rots":6
+    }, {
+      "dups":1, 
+      "rots":6
+    }, {
+      "dups":1, 
+      "rots":1
+    }]
+  }, {
+    "type":"btok", 
+    "tName":"Tokens", 
+    "imgLoc":"images/1846-JB01/token.png", 
+    "xStart":10, 
+    "xSize":30, 
+    "xStep":40, 
+    "yStart":10, 
+    "ySize":30, 
+    "yStep":40, 
+    "token":[ {
+      "dups":7, 
+      "flip":true
+    }, {
+      "dups":7, 
+      "flip":true
+    }, {
+      "dups":7, 
+      "flip":true
+    }, {
+      "dups":6, 
+      "flip":true
+    }, {
+      "dups":7, 
+      "flip":true
+    }, {
+      "dups":7, 
+      "flip":true
+    }, {
+      "dups":8, 
+      "flip":true
+    }]
+  }, {
+    "type":"btok", 
+    "tName":"Other Tokens", 
+    "imgLoc":"images/1846-JB01/otherToken.png", 
+    "xStart":10, 
+    "xSize":30, 
+    "xStep":40, 
+    "yStart":10, 
+    "ySize":30, 
+    "yStep":40, 
+    "token":[ {
+      "dups":1, 
+      "flip":false
+    }, {
+      "dups":1, 
+      "flip":false
+    }, {
+      "dups":1, 
+      "flip":false
+    }, {
+      "dups":1, 
+      "flip":false
+    }]
+  }, {
+    "type":"mtok", 
+    "tName":"Tokens", 
+    "imgLoc":"images/1846-JB01/token.png", 
+    "xStart":10, 
+    "xSize":30, 
+    "xStep":40, 
+    "yStart":10, 
+    "ySize":30, 
+    "yStep":40,
+    "token":[ {
+      "flip":true
+    }, {
+      "flip":true
+    }, {
+      "flip":true
+    }, {
+      "flip":true
+    }, {
+      "flip":true
+    }, {
+      "flip":true
+    }, {
+      "flip":true
+    }, {
+      "flip":true
+    }, {
+      "flip":true
+    }]
+  }]
+}
