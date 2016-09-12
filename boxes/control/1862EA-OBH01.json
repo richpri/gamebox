@@ -99,7 +99,7 @@
 		] }, {
 		"type": "btok",
 		"tName": "Stations",
-		"imgLoc": "images/1862EA-OBH01/MapTokens.png",
+		"imgLoc": "images/1862EA-OBH01/StationTokens.png",
 		"xStart": 10,
 		"xSize":  30,
 		"xStep":  40,
