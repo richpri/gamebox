@@ -128,6 +128,18 @@
 			{ "dups": 7, "flip": true },
 			{ "dups": 7, "flip": true }
 		] }, {
+		"type": "btok",
+		"tName": "Towns",
+		"imgLoc": "images/1862EA-OBH01/TownTokens.png",
+		"xStart": 10,
+		"xSize":  22,
+		"xStep":  32,
+		"yStart": 10,
+		"ySize":  22,
+		"yStep":  32,
+		"token": [
+			{ "dups": 36, "flip": false }
+		] }, {
 		"type": "mtok",
 		"tName": "Tokens",
 		"imgLoc": "images/1862EA-OBH01/MarketTokens.png",
