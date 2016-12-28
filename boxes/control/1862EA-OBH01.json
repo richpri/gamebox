@@ -12,10 +12,10 @@
 	},
 	"market": {
 		"imgLoc": "images/1862EA-OBH01/Market.png",
-		"xStart":  0,
-		"xStep":  51,
-		"yStart":  0,
-		"yStep":  51
+		"xStart":   0,
+		"xStep":   50,
+		"yStart":   0,
+		"yStep":  125
 	},
 	"tray": [ {
 		"type": "tile",
